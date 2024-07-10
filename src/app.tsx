@@ -4,6 +4,14 @@ interface loginStyle {
   height: string;
   backgroundColor: string;
 }
+let elementData = {
+  loginInput: {
+    textNode: "input",
+  },
+  loginSubmit: {
+    textNode: "click",
+  },
+};
 const App = () => {
   let styles: React.CSSProperties = {
     width: "100vw",
@@ -18,7 +26,7 @@ const App = () => {
       <div id="login" style={styles}>
         <div id="login-input"></div>
         <div id="login-submit" onClick={loginSubmit}>
-          clicj
+          {elementData.loginSubmit.textNode}
         </div>
       </div>
     </div>
