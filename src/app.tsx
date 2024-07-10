@@ -17,7 +17,9 @@ const App = () => {
     <div>
       <div id="login" style={styles}>
         <div id="login-input"></div>
-        <div id="login-submit"></div>
+        <div id="login-submit" onClick={loginSubmit}>
+          clicj
+        </div>
       </div>
     </div>
   );
